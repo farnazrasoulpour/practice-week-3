@@ -1,5 +1,7 @@
-const Header = () => {
-    return <div>Header</div>
-};
+import './Header.css';
 
-export default Header;
+const Header = () => {
+    return <div className= 'Header'>Todo App</div>
+}; 
+
+export default Header;         
